@@ -3,6 +3,7 @@ import CanvasBgGradient from '../components/CanvasBgGradient'
 import AboutMe from '../components/AboutMe'
 import Skills from '../components/Skills'
 import Works from '../components/Works'
+import Carousel from '../components/Carousel'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <AboutMe />
       <Skills />
       <Works />
+      <Carousel />
     </>
   )
 }
