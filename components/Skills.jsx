@@ -1,5 +1,6 @@
 import React, { useContext, useRef } from 'react'
 import s from './../styles/skills.module.css'
+import Emoji from './Emoji'
 import { ScrollContext } from './ScrollObserver'
 
 const opacityForBlock = (sectionProgress, blockNo) => {
@@ -8,10 +9,11 @@ const opacityForBlock = (sectionProgress, blockNo) => {
     return 0.2
 }
 
+
 function Skills() {
     const { scrollY } = useContext(ScrollContext)
     const refContainer = useRef(null)
-    const numOfPages = 4
+    const numOfPages = 5
     let progress = 0
 
     const { current: elContainer } = refContainer
@@ -32,22 +34,27 @@ function Skills() {
                     <div className={s.skillText} style={{
                         opacity: opacityForBlock(progress, 0)
                     }}>
-                        Lorem ipsum dolor sit amet consectetur.
+                        This portfolio is the reflect of my main specialisation in ReactJs with NextJs
                     </div>
-                    <span className={`${s.skillText} inline-block after:content-['-']`} style={{
+                    <span className={`${s.skillText} inline-block`} style={{
                         opacity: opacityForBlock(progress, 1)
                     }}>
-                        Lorem ipsum lor sit amet consectetur, adipisicing elit. Est veniam mollitia, fugiat vel quidem animi?
+                        I desire to bring my FrontEnd experience in quality projects
                     </span>
                     <span className={`${s.skillText} inline-block`} style={{
                         opacity: opacityForBlock(progress, 2)
                     }}>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est veniam mollitia, fugiat vel quidem animi?
+                        I am curently available for a permanent contract to join a great technical team
                     </span>
-                    <span className={s.skillText} style={{
+                    <span className={`${s.skillText} inline-block`} style={{
                         opacity: opacityForBlock(progress, 3)
                     }}>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est veniam mollitia, fugiat vel quidem animi?
+                        My web agency experience was just incredible
+                    </span>
+                    <span className={`${s.skillText} inline-block`} style={{
+                        opacity: opacityForBlock(progress, 4)
+                    }}>
+                        But I think I{`'`}ll thrive just as much in a startup or a big company <Emoji symbol="🚀" label="rocket" />
                     </span>
                 </div>
             </div>

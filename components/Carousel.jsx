@@ -8,8 +8,8 @@ function Carousel() {
         <section className={`bg-white min-h-screen flex flex-col justify-center gap-16 md:gap-32 ${styles.bg}`}>
             <div className="flex flex-col justify-center items-center">
                 <h3 className="text-xl mt-10 mb-10 font-bold text-center">
-                    <span className='whitespace-nowrap'>Carousel</span>{' '}
-                    <span className='whitespace-nowrap'>That is an awesome carousel</span>
+                    {/* <span className='whitespace-nowrap'>Carousel</span>{' '} */}
+                    <span className='whitespace-nowrap'>Technologies I use to work with</span>
                 </h3>
                 <Items />
             </div>
