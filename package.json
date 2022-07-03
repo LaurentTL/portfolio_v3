@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "embla-carousel": "^7.0.0-rc01",
     "embla-carousel-autoplay": "^6.2.0",
     "embla-carousel-class-names": "^6.2.0",
     "embla-carousel-react": "^6.2.0",

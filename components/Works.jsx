@@ -4,7 +4,6 @@ import { ProjectBackground, ProjectWrapper, ProjectContent, Project } from './Pr
 import { WorkBackground, WorkContainer, WorkLeft, WorkRight, WorkLink } from './work'
 import rockPic from './../public/1.jpeg'
 import skillex from './../public/skillex.jpeg'
-import Show from './Show'
 
 function Works() {
     return (
@@ -19,15 +18,16 @@ function Works() {
                             <WorkLeft progress={progress}>
                                 <div>I{`'`}ve build</div>
                                 <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                                    <WorkLink href={'https://skillexclone.netlify.app'}>Skillex clone</WorkLink>
+                                    <WorkLink href={'https://skillexclone.netlify.app'}>Skillex home page integration</WorkLink>
                                 </div>
                             </WorkLeft>
                             <WorkRight progress={progress}>
-                                <Show path={skillex} alt={'skillex'} />
-                                {/* <Image
+                                <Image
                                     src={skillex}
+                                    layout='fill'
+                                    objectFit='cover'
                                     alt='rocks'
-                                /> */}
+                                />
                             </WorkRight>
                         </WorkContainer>
                     )}>
