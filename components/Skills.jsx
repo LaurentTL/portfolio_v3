@@ -44,12 +44,12 @@ function Skills() {
                     <span className={`${s.skillText} inline-block`} style={{
                         opacity: opacityForBlock(progress, 2)
                     }}>
-                        I am curently available for a permanent contract to join a great technical team <Emoji symbol="🏆" label="trophy" />
+                        I am curently available for a permanent contract to join a great technical team <Emoji symbol="💻" label="computer" />
                     </span>
                     <span className={`${s.skillText} inline-block`} style={{
                         opacity: opacityForBlock(progress, 3)
                     }}>
-                        My web agency experience was just incredible <Emoji symbol="💻" label="computer" />
+                        My web agency experience was just incredible <Emoji symbol="🏆" label="trophy" />
                     </span>
                     <span className={`${s.skillText} inline-block`} style={{
                         opacity: opacityForBlock(progress, 4)
