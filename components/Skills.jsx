@@ -34,22 +34,22 @@ function Skills() {
                     <div className={s.skillText} style={{
                         opacity: opacityForBlock(progress, 0)
                     }}>
-                        This portfolio is the reflect of my main specialisation in ReactJs with NextJs
+                        This portfolio is the reflect of my main specialisation in ReactJs with NextJs <Emoji symbol="🔥" label="fire" />
                     </div>
                     <span className={`${s.skillText} inline-block`} style={{
                         opacity: opacityForBlock(progress, 1)
                     }}>
-                        I desire to bring my FrontEnd experience in quality projects
+                        I desire to bring my FrontEnd experience in quality projects <Emoji symbol="🎯" label="target" />
                     </span>
                     <span className={`${s.skillText} inline-block`} style={{
                         opacity: opacityForBlock(progress, 2)
                     }}>
-                        I am curently available for a permanent contract to join a great technical team
+                        I am curently available for a permanent contract to join a great technical team <Emoji symbol="🏆" label="trophy" />
                     </span>
                     <span className={`${s.skillText} inline-block`} style={{
                         opacity: opacityForBlock(progress, 3)
                     }}>
-                        My web agency experience was just incredible
+                        My web agency experience was just incredible <Emoji symbol="💻" label="computer" />
                     </span>
                     <span className={`${s.skillText} inline-block`} style={{
                         opacity: opacityForBlock(progress, 4)
