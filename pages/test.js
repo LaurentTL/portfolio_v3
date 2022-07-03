@@ -1,11 +1,10 @@
 import React from 'react'
-import Show from '../components/Show'
-import skillex from '../public/skillex.jpeg'
+import Footer from '../components/Footer'
 
 function test() {
     return (
         <div className='h-screen w-screen flex items-center justify-center'>
-            <Show path={skillex} alt={'skillex'} />
+            <Footer />
         </div>
     )
 }
