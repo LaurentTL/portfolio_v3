@@ -6,6 +6,7 @@ import rockPic from './../public/1.jpeg'
 import skillex from './../public/skillex.png'
 import reddit from './../public/reddit.png'
 import dm from './../public/dm.png'
+import p2020 from './../public/p2020.png'
 
 function Works() {
     return (
@@ -65,6 +66,25 @@ function Works() {
                             <WorkRight progress={progress}>
                                 <Image
                                     src={dm}
+                                    layout='fill'
+                                    objectFit='cover'
+                                    alt='rocks'
+                                />
+                            </WorkRight>
+                        </WorkContainer>
+                    )}>
+                </Project>
+                <Project page={3}
+                    renderContent={({ progress }) => (
+                        <WorkContainer>
+                            <WorkLeft progress={progress}>
+                                <div className="text-4xl md:text-5xl font-semibold tracking-tight">
+                                    <WorkLink href={'https://laurenttreuil.herokuapp.com/'}>Portfolio 2020</WorkLink>
+                                </div>
+                            </WorkLeft>
+                            <WorkRight progress={progress}>
+                                <Image
+                                    src={p2020}
                                     layout='fill'
                                     objectFit='cover'
                                     alt='rocks'
