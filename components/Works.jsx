@@ -5,6 +5,7 @@ import { WorkBackground, WorkContainer, WorkLeft, WorkRight, WorkLink } from './
 import rockPic from './../public/1.jpeg'
 import skillex from './../public/skillex.png'
 import reddit from './../public/reddit.png'
+import dm from './../public/dm.png'
 
 function Works() {
     return (
@@ -56,11 +57,13 @@ function Works() {
                     renderContent={({ progress }) => (
                         <WorkContainer>
                             <WorkLeft progress={progress}>
-                                <div className="">Lorem ipsum dolor sit amet.</div>
+                                <div className="text-4xl md:text-5xl font-semibold tracking-tight">
+                                    <WorkLink href={'https://www.dm-gestion-syndics.fr/'}>DM Gestion Syndics</WorkLink>
+                                </div>
                             </WorkLeft>
                             <WorkRight progress={progress}>
                                 <Image
-                                    src={rockPic}
+                                    src={dm}
                                     layout='fill'
                                     objectFit='cover'
                                     alt='rocks'
