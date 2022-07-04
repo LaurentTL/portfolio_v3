@@ -59,6 +59,7 @@ function Works() {
                             <WorkLeft progress={progress}>
                                 <div className="text-4xl md:text-5xl font-semibold tracking-tight">
                                     <WorkLink href={'https://www.dm-gestion-syndics.fr/'}>DM Gestion Syndics</WorkLink>
+                                    <p className='font-semibold'>@Eanet</p>
                                 </div>
                             </WorkLeft>
                             <WorkRight progress={progress}>
