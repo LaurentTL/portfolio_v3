@@ -10,7 +10,7 @@ import p2020 from './../public/p2020.png'
 
 function Works() {
     return (
-        <ProjectWrapper numOfPages={3}>
+        <ProjectWrapper numOfPages={4}>
             <ProjectBackground>
                 <WorkBackground />
             </ProjectBackground>
