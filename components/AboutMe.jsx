@@ -15,7 +15,7 @@ function AboutMe() {
                     Those trainings bring me a Fullstack scope for my FrontEnd specialisation.
                 </p>
                 <p className='mt-10 mx-auto font-light leading-tight max-w-5xl max-auto text-3xl tracking-tight'>
-                    At the beginning of 2022 I did a three-month internship in <strong>Eanet</strong>, an awesome web Agency, where i mostly did FrontEnd development and project management.
+                    At the beginning of 2022 I did a three-month internship at <strong>Eanet</strong>, an awesome web Agency, where i mostly did FrontEnd development and project management.
                 </p>
             </div>
         </section>
